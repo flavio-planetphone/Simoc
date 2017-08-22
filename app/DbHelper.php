@@ -8,7 +8,7 @@
 class DbHelper {
 	private $con;
 	public function __construct(){
-		$this->con = new PDO("mysql:host=localhost;dbname=MLigacao", "usuario", "senha");
+		$this->con = new PDO("mysql:host=localhost;dbname=Simoc", "root", "cdl1313");
 	}
 	
 	public function selectLigacoes($filtro){
